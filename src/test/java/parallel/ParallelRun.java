@@ -1,4 +1,4 @@
-package parallel;
+/*package parallel;
 
 import org.testng.annotations.DataProvider;
 
@@ -21,4 +21,4 @@ public class ParallelRun extends AbstractTestNGCucumberTests {
 	public Object[][] scenarios() {
 		return super.scenarios();
 	}
-}
+}*/

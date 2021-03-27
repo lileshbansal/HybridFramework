@@ -23,6 +23,7 @@ public class ApplicationHooks extends DriverFactory{
 	public void getProperty() {
 		configReader = new ConfigReader();
 		prop = configReader.init_prop();
+		//extentReport();
 	}
 
 	@Before(order = 1)

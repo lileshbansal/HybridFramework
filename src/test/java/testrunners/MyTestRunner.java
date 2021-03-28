@@ -9,7 +9,7 @@ import io.cucumber.testng.CucumberOptions;
 		features = {"src/test/resources/features"},
 		glue = {"stepdefinitions"},
 		plugin = {"pretty",	"com.aventstack.extentreports.cucumber.adapter.ExtentCucumberAdapter:",	"timeline:test-output-thread/"},
-		tags= "@contacttest"
+		tags= "@logintest"
 		
 		)
 

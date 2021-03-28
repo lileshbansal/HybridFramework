@@ -26,7 +26,7 @@ public class DriverFactory {
 		if (browser.equals("chrome")) {
 			//WebDriverManager.chromedriver().setup();
 			//tlDriver.set(new ChromeDriver());
-			System.setProperty("webdriver.chrome.driver", "C:\\Users\\lilesh bansal\\git\\HybridFramework\\Drivers\\chromedriver.exe");
+			System.setProperty("webdriver.chrome.driver", System.getProperty("user.dir") +"/Drivers/chromedriver");
 		    driver = new ChromeDriver();
 		} else if (browser.equals("firefox")) {
 			WebDriverManager.firefoxdriver().setup();
